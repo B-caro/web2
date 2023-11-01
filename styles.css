@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+    .title {
+        font-size: 36px; /* Reduce el tamaño de fuente para pantallas más pequeñas */
+    }
+
+    .text-container {
+        margin-top: 5%; /* Ajusta el margen superior para pantallas más pequeñas */
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 110px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('https://fonts.gstatic.com/s/playfairdisplay/v21/nuFiD-vYSZviVYUb_rj3ij__anPXJzDwcbP_6g.woff2') format('woff2');
+}
+
+.title {
+    font-size: 3em;
+    margin: 10px 0;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.description {
+    font-size: 22px;
+    max-height: 600px;
+    margin-top: 30px;
+    overflow: auto;
+    font-family: 'Playfair Display', serif;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.image {
+    margin-top: 2em;
+    width: 50%; /* Ajustar la imagen al ancho del contenedor */
+    max-width: 800px; /* Limitar el ancho máximo para evitar imágenes excesivamente grandes */
+    height: auto; /* Mantener la proporción de aspecto original */
+}
+
+.text-container {
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente y horizontalmente */
+}
+
+.text-content {
+    text-align: justify; /* Centra el texto horizontalmente */
+    max-width: 80%; /* Limita el ancho del texto para un mejor espaciado */
+}
